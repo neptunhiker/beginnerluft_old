@@ -2,3 +2,29 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-color: yellow;
+	color: black;
+}
+
+
+#login-form {
+	border: solid black 1px;
+	width: 100%;
+
+}
+
+img {
+	width: 20%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#header {
+	float:right;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: black;
+	font-size: 2em;
+}
+
