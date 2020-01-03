@@ -19,7 +19,7 @@ $(function() {
 			if (password === "0000") {
 				$("#password-message").text("");
 				$("#login-message").text("password correct").css("color", "green");
-				
+				window.open("https://neptunhiker.github.io/beginnerluft/timesheet", "_self");
 			} else {
 				$("#password-message").text("wrong password");
 			}
