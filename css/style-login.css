@@ -10,6 +10,8 @@ body {
 
 #login-form {
 	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -18,12 +20,20 @@ body {
 	background-color: white;
 }
 
+@media only screen and (min-width: 576px) {
+  /* For desktop: */
+  #login-form {
+  	width: 50%;
+  	max-width: 500px;
+  }
+}
+
 img {
 	width: 20%;
 }
 
 #welcome {
-	margin-top: 50px;
+	margin-top: 25px;
 	font-size: 2em;
 	font-weight: bold;
 	text-align: center;
@@ -48,16 +58,15 @@ img {
 	margin-bottom: 10px;
 	line-height: 2.4em;
 	font-weight: 300;
-	/*letter-spacing: 0.02rem;*/
-	font-size: 1.8em;
+	font-size: 1.1em;
 	border: none;
 	border-bottom: 1px solid black;
-
 }
 
-.input-fields:focus {
+.input-fields:focus, .input-fields:hover {
 	outline: none;
 	background-color: yellow;
+	border-radius: 10px;
 }
 
 button {
@@ -79,7 +88,7 @@ button {
 }
 
 button:hover {
-	background-color: var(--bl-yellow);
+	background-color: yellow;
 	color: black;
 	font-weight: bold;
 }
@@ -93,9 +102,17 @@ button:active {
 	top: 1px;
 	left: 2px;
 	box-shadow: 1px 1px  2px 1px grey;
-	background-color: var(--bl-yellow);
+	background-color: yellow;
 	color: black;
 	font-weight: bold;
+}
+
+#email-message, #password-message {
+	color: red;
+}
+
+#login-message {
+	text-align: center;
 }
 
 
