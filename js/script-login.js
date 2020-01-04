@@ -21,6 +21,7 @@ $(function() {
 				window.open("https://neptunhiker.github.io/beginnerluft/timesheet", "_self");
 			} else {
 				$("#password-message").text("Falsches Passwort");
+				$("#forgot-password").text("Passwort vergessen?");
 			}
 		} else {
 			$("#email-message").text("E-Mailadresse unbekannt");
@@ -28,5 +29,8 @@ $(function() {
 		}
 	  })
 
+	$("#forgot-password").click(function() {
+		window.open("https://neptunhiker.github.io/beginnerluft/passwordrecovery", "_self");
 	})
+})
 
