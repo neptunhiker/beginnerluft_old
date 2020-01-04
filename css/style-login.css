@@ -33,8 +33,8 @@ img {
 }
 
 #welcome {
-	margin-top: 25px;
-	font-size: 2em;
+	margin-top: 50px;
+	font-size: 2.5em;
 	font-weight: bold;
 	text-align: center;
 	letter-spacing: 0.05rem;
@@ -45,15 +45,17 @@ img {
 	padding-left: 10px;
 	padding-right: 10px;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	line-height: 1em;
 	letter-spacing: 0.02rem;
 	color: black;
+	font-style: italic;
+	margin-bottom: 50px;
 }
 
 .input-fields {
 	width: 100%;
-	background: none;
+	background: transparent;
 	margin-top: 25px;
 	margin-bottom: 10px;
 	line-height: 2.4em;
@@ -69,13 +71,9 @@ img {
 	border-radius: 10px;
 }
 
-.input-fields:link {
-	background-color: pink;
-}
-
 button {
 	width: 240px;
-	margin-top: 20px;
+	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;

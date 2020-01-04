@@ -15,17 +15,16 @@ $(function() {
 		if (testemails.includes(email)) {
 			$("#email-message").text("");
 			var password = $("input[name=pw").val();
-			console.log(password);
 			if (password === "0000") {
 				$("#password-message").text("");
-				$("#login-message").text("password correct").css("color", "green");
+				$("#login-message").text("Passwort korrekt").css("color", "green");
 				window.open("https://neptunhiker.github.io/beginnerluft/timesheet", "_self");
 			} else {
-				$("#password-message").text("wrong password");
+				$("#password-message").text("Falsches Passwort");
 			}
 		} else {
 			$("#email-message").text("E-Mailadresse unbekannt");
-			console.log("Email adresse unbekannt");
+	
 		}
 	  })
 
