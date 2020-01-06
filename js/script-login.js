@@ -30,7 +30,7 @@ $(function() {
 	  })
 
 	$("#forgot-password").click(function() {
-		window.open("https://neptunhiker.github.io/beginnerluft/passwordrecovery.html", "_self");
+		window.open("https://neptunhiker.github.io/beginnerluft/passwordrecovery", "_self");
 	})
 })
 
