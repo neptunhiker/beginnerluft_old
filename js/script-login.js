@@ -18,7 +18,7 @@ $(function() {
 			if (password === "0000") {
 				$("#password-message").text("");
 				$("#login-message").text("Passwort korrekt").css("color", "green");
-				window.open("https://neptunhiker.github.io/beginnerluft/timesheet", "_self");
+				window.open("https://neptunhiker.github.io/beginnerluft_old/timesheet", "_self");
 			} else {
 				$("#password-message").text("Falsches Passwort");
 				$("#forgot-password").text("Passwort vergessen?");
